@@ -6,13 +6,14 @@
             <!-- <img src="{{ asset('/img/logo/logo-white.svg') }}" alt="logo" /> -->
 
             <!-- Or added via css to provide different ones for different color themes -->
-            <div class="img"></div>
+            <!-- <div class="img"></div> -->
+            <h4 style="color:white;  padding: 10px 15px;">RPM Datas</h4>
         </a>
     </div>
     <!-- Logo End -->
 
     <!-- User Menu Start -->
-    <div class="user-container d-flex">
+    <!-- <div class="user-container d-flex">
         <a href="#" class="d-flex user position-relative" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <img class="profile" alt="profile" src="{{ asset('/img/profile/profile-8.jpg') }}" />
             <div class="name">Zayn Hartley</div>
@@ -109,11 +110,11 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- User Menu End -->
 
     <!-- Icons Menu Start -->
-    <ul class="list-unstyled list-inline text-center menu-icons">
+    <!-- <ul class="list-unstyled list-inline text-center menu-icons">
         <li class="list-inline-item">
             <a href="#" data-bs-toggle="modal" data-bs-target="#searchPagesModal">
                 <i data-cs-icon="search" data-cs-size="18"></i>
@@ -169,37 +170,52 @@
                 </div>
             </div>
         </li>
-    </ul>
+    </ul> -->
     <!-- Icons Menu End -->
 
     <!-- Menu Start -->
     <div class="menu-container flex-grow-1">
         <ul id="menu" class="menu">
             <li>
-                <a href="/Dashboard">
+                <a href="{{ url('/') }}">
                     <i data-cs-icon="shop" class="icon" data-cs-size="18"></i>
-                    <span class="label">Dashboard</span>
+                    <span class="label">General </span>
                 </a>
             </li>
             <li>
-                <a href="#products" data-href="/Products/List">
+                <a href="#products" data-href="{{ url('/sbin') }}">
                     <i data-cs-icon="cupcake" class="icon" data-cs-size="18"></i>
-                    <span class="label">Products</span>
+                    <span class="label">Operateur</span>
                 </a>
                 <ul id="products">
-                    <li>
-                        <a href="/Products/List">
-                            <span class="label">List</span>
+                     <li>
+                        <a href="{{ url('/sbin') }}">
+                            <span class="label">SBIN</span>
                         </a>
                     </li>
                     <li>
-                        <a href="/Products/Detail">
-                            <span class="label">Detail</span>
+                        <a href="{{ url('/isocel') }}">
+                            <span class="label">ISOCEL</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{{ url('/mtn') }}">
+                            <span class="label">MTN</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{{ url('/moov') }}">
+                            <span class="label">MOOV</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{{ url('/gmbh') }}">
+                            <span class="label">GmbH</span>
                         </a>
                     </li>
                 </ul>
             </li>
-            <li>
+            <!-- <li>
                 <a href="#orders" data-href="/Orders/List">
                     <i data-cs-icon="cart" class="icon" data-cs-size="18"></i>
                     <span class="label">Orders</span>
@@ -295,7 +311,7 @@
                     <i data-cs-icon="gear" class="icon" data-cs-size="18"></i>
                     <span class="label">Settings</span>
                 </a>
-            </li>
+            </li> -->
         </ul>
     </div>
     <!-- Menu End -->

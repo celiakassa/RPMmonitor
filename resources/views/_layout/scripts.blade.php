@@ -11,7 +11,7 @@
 <script src="{{ asset('/js/base/helpers.js') }}"></script>
 <script src="{{ asset('/js/base/globals.js') }}"></script>
 <script src="{{ asset('/js/base/nav.js') }}"></script>
-<script src="{{ asset('/js/base/search.js') }}"></script>
+<!-- <script src="{{ asset('/js/base/search.js') }}"></script> -->
 <script src="{{ asset('/js/base/settings.js') }}"></script>
 <script src="{{ asset('/js/base/init.js') }}"></script>
 <!-- Template Base Scripts End -->

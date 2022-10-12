@@ -240,7 +240,7 @@
 <!-- Theme Settings Modal End -->
 
 <!-- Niches Modal Start -->
-<div
+<!-- <div
         class="modal fade modal-right scroll-out-negative"
         id="niches"
         data-bs-backdrop="true"
@@ -248,8 +248,8 @@
         role="dialog"
         aria-labelledby="niches"
         aria-hidden="true"
->
-    <div class="modal-dialog modal-dialog-scrollable full" role="document">
+> -->
+    <!-- <div class="modal-dialog modal-dialog-scrollable full" role="document">
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title">Niches</h5>
@@ -441,7 +441,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 <!-- Niches Modal End -->
 
 <!-- Theme Settings & Niches Buttons Start -->
@@ -453,19 +453,19 @@
       <i data-cs-icon="paint-roller" class="position-relative"></i>
     </span>
     </button>
-    <button type="button" class="btn settings-button btn-primary p-0" data-bs-toggle="modal" data-bs-target="#niches"
+    <!-- <button type="button" class="btn settings-button btn-primary p-0" data-bs-toggle="modal" data-bs-target="#niches"
             id="nichesButton">
     <span class="d-inline-block no-delay" data-bs-delay="0" data-bs-offset="0,3" data-bs-toggle="tooltip"
           data-bs-placement="left" title="Niches">
       <i data-cs-icon="toy" class="position-relative"></i>
     </span>
-    </button>
-    <a href="https://1.envato.market/BX5oGy" target="_blank" class="btn settings-button btn-primary p-0"
+    </button> -->
+    <!-- <a href="https://1.envato.market/BX5oGy" target="_blank" class="btn settings-button btn-primary p-0"
        id="purchaseButton">
     <span class="d-inline-block no-delay" data-bs-delay="0" data-bs-offset="0,3" data-bs-toggle="tooltip"
           data-bs-placement="left" title="Purchase">
       <i data-cs-icon="cart" class="position-relative"></i>
     </span>
-    </a>
+    </a> -->
 </div>
 <!-- Theme Settings & Niches Buttons End -->
